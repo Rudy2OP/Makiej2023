@@ -1,0 +1,170 @@
+@media only screen and (max-width: 1000px) {
+body
+{
+    margin: 0 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.powitajka {
+  background-image: url("szkola-tyl.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dalej
+{
+    background-color: #ffffff;
+}
+.dalej1
+{
+    background-color: #ffffff;
+}
+.dalej2
+{
+    background-color: #ffffff;
+}
+.tyl
+{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tekst
+{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.Gigatekst
+{
+    font-size: 100px;
+}
+.Minitekst
+{
+    font-size: 50px;
+    margin-top: 8vh;
+}
+.tlotekstu
+{
+    background-color: #e5006e;
+    padding: 2vh;
+}
+.pojemnik {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+  height: auto;
+}
+
+.tekstopisowy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+  margin-bottom: 5vh;
+}
+.naglowek
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.ikona
+{
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.opis {
+  font-size: 20px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+.social
+{
+    font-size: 50px;
+    color: #fff;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.social a
+{
+    color: #fff;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.social a:hover
+{
+    font-size: 55px;
+}
+}
+@media only screen and (max-width: 900px) {
+  /* existing styles for small screens */
+
+  /* new styles for screens smaller than 700px */
+  .Gigatekst {
+    font-size: 30px;
+  }
+  .Minitekst {
+    font-size: 20px;
+    margin-top: 5vh;
+  }
+  .naglowek {
+    font-size: 20px;
+  }
+  .ikona {
+    font-size: 20px;
+    margin-bottom: 2vh;
+  }
+  .opis {
+    font-size: 16px;
+    line-height: 1.2em;
+  }
+
+  /* styles for screens smaller than 400px */
+  @media only screen and (max-width: 500px) {
+    body {
+      font-size: 14px;
+    }
+    /* .Gigatekst {
+      font-size: 20px;
+    }
+    .Minitekst {
+      font-size: 16px;
+      margin-top: 4vh;
+    } */
+    .naglowek {
+      font-size: 16px;
+    }
+    .ikona {
+      font-size: 16px;
+      margin-bottom: 2vh;
+    }
+    .opis {
+      font-size: 14px;
+      line-height: 1.2em;
+    }
+  }
+}
+
+@media only screen and (max-width: 280px) {
+    .Gigatekst {
+      font-size: 20px;
+    }
+    .Minitekst {
+      font-size: 16px;
+      margin-top: 4vh;
+    }
+}
